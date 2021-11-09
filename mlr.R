@@ -25,7 +25,7 @@ abline(model, col = "blue")
 par(mfrow=c(2,2))
 plot(model)
 
-# Prediction_0
+# Prediction
 pred <- predict(model, testing)
 predict(model, data.frame(lh=10))
 
